@@ -1,6 +1,6 @@
 [package]
 name = "ilyaraz_test_crate_1"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "Apache-2.0"
 description = "Sample description"
@@ -10,3 +10,6 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[[bin]]
+name = "a"
